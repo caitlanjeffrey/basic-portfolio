@@ -23,32 +23,20 @@
 
     <content>
         <h2>Contact</h2>
-        <div class="contact"></div>
+        <div class="container">
             <form action="/action_page.php">
-                <div id="name">
-                    Name:<br>
-                    <input type="text" name="name" value="">
-                    <br>
-                </div>
+                <h5>Name:</h5>
+                <input type="text" id="fname" name="firstname" placeholder="">
 
-                <div id="email">
-                    Email:<br>
-                    <input type="text" name="email" value="">
-                    <br>
-                </div>
-                
-                <div id="message">
-                    Message:<br>
-                    <textarea type="text" name="message" value="">
-                    </textarea>
-                    <br>
-                </div>
-
-                <div id="submit">
-                    <input type="submit" value="Submit">
-                </div>
-            </form> 
-        </div>  
+                <h5>Email:</h5>
+                <input type="text" id="lname" name="lastname" placeholder="">
+            
+                <h5>Message:</h5>
+                <textarea id="subject" name="subject" placeholder="Limit 320 characters." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+                </form>
+        </div><!--end of container-->
     </content><!--end of content-->
 
     <footer>
