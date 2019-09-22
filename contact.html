@@ -14,30 +14,41 @@
         <h1>Caitlan Michele Jeffrey</h1>
         <nav>
             <ul>
-                <li><a href="about.html">   About  |</a></li>
-                <li><a href="portfolio.html">   Portfolio  |</a></li>
-                <li><a href="contact.html"> Contact</a></li>
+                <li><a href="about.html">About |</a></li>
+                <li><a href="portfolio.html">Portfolio |</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </section>
 
     <content>
         <h2>Contact</h2>
-        <form action="/action_page.php">
-            Name:<br>
-            <input type="text" name="firstname" value="">
-            <br>
-            
-            Email Address:<br>
-            <input type="text" name="lastname" value="">
-            <br>
+        <div class="contact"></div>
+            <form action="/action_page.php">
+                <div id="name">
+                    Name:<br>
+                    <input type="text" name="name" value="">
+                    <br>
+                </div>
+
+                <div id="email">
+                    Email:<br>
+                    <input type="text" name="email" value="">
+                    <br>
+                </div>
                 
-            Message:<br>
-            <input type="text" name="lastname" value="">
-            <br><br>
-            
-            <input type="submit" value="Submit">
-        </form> 
+                <div id="message">
+                    Message:<br>
+                    <textarea type="text" name="message" value="">
+                    </textarea>
+                    <br>
+                </div>
+
+                <div id="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form> 
+        </div>  
     </content><!--end of content-->
 
     <footer>
